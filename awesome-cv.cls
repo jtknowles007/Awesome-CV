@@ -84,10 +84,10 @@
 \RequirePackage[hidelinks,unicode]{hyperref}
 \RequirePackage{graphicx}
 \hypersetup{%
-  pdftitle={},
-  pdfauthor={},
-  pdfsubject={},
-  pdfkeywords={}
+  pdftitle={John T. Knowles, RN, RHIA Resume},
+  pdfauthor={John T. Knowles},
+  pdfsubject={Resume},
+  pdfkeywords={resume,registered nurse, RN, registered health information administrator, rhia, quality, dialysis, critical care}
 }
 
 
