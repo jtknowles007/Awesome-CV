@@ -12,6 +12,7 @@
 *.dvi
 *-converted-to.*
 <<<<<<< HEAD
+nohup.out
 
 ### Editor ###
 ## Vim & Emacs temp files:
