@@ -84,10 +84,10 @@
 \RequirePackage[hidelinks,unicode]{hyperref}
 \RequirePackage{graphicx}
 \hypersetup{%
-  pdftitle={John T. Knowles, RN, RHIA Resume},
-  pdfauthor={John T. Knowles},
-  pdfsubject={Resume},
-  pdfkeywords={resume,registered nurse, RN, registered health information administrator, rhia, quality, dialysis, critical care}
+  pdftitle={},
+  pdfauthor={},
+  pdfsubject={},
+  pdfkeywords={}
 }
 
 
@@ -166,7 +166,7 @@
 % Set the FontAwesome font to be up-to-date.
 \setfontfamily\FA[Path=\@fontdir]{FontAwesome}
 % Set font for header (default is Roboto)
-\setfontfamily\headerfont[
+\newfontfamily\headerfont[
   Path=\@fontdir,
   UprightFont=*-Regular,
   ItalicFont=*-Italic,
@@ -174,7 +174,7 @@
   BoldItalicFont=*-BoldItalic,
 ]{Roboto}
 
-\setfontfamily\headerfontlight[
+\newfontfamily\headerfontlight[
   Path=\@fontdir,
   UprightFont=*-Thin,
   ItalicFont=*-ThinItalic,
